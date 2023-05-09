@@ -1,0 +1,71 @@
+body {
+  background-image: url("welcome.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.button {
+  padding: 25px 35px;
+  font-size: 29px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #e311df;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #f9faf6;
+}
+
+.button:hover {
+  background-color: #e90813;
+  opacity: 1;
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(10, 5, 5);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(12, 11, 11);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:active {
+  color: rgb(0, 255, 47);
+  background-color: transparent;
+  text-decoration: none;
+
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}

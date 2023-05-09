@@ -1,0 +1,252 @@
+
+.artist {
+    background-color: rgb(5, 164, 5);
+    color: #f6f4f4;
+    padding-bottom: 33px;
+}
+
+body {
+    background-image: url('smoke-clears-spotlight-black-background-084331518_prevstill.webp');
+    background-size: 100% 100%;
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+/* animate background color change */
+body {
+    transition: background-color 0.5s ease-in-out;
+}
+
+.artist-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+    /* animate margin change */
+    transition: margin 0.5s ease-in-out;
+}
+
+.artist-container img {
+    max-width: 50%;
+    padding-top: 100px;
+    margin-right: 50px;
+    box-shadow: 10px 10px 20px #ededed;
+    /* animate box-shadow change */
+    transition: box-shadow 0.5s ease-in-out;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+textarea {
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f9f9f9;
+    box-shadow: 1px 1px 2px #888888;
+}
+
+input[type="button"] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    transition: all 0.2s ease-in-out;
+}
+
+input[type="button"]:hover {
+    background-color: #3e8e41;
+    /* animate button color change */
+    animation: button-color 0.5s ease-in-out forwards;
+}
+
+.review-container {
+    margin-top: 50px;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+table td,
+table th {
+    border: 2px solid #ddd;
+    padding: 8px;
+}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #4e4caf;
+    color: white;
+    /* animate table header color change */
+    transition: background-color 0.5s ease-in-out;
+}
+
+.stars {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.stars input[type="radio"] {
+    display: none;
+}
+
+.stars label {
+    color: #e8e5e5;
+    font-size: 30px;
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+.stars label:hover,
+.stars label:hover~label {
+    color: #FFD700;
+}
+
+.stars input[type="radio"]:checked~label {
+    color: #FFD700;
+    /* animate checked star color change */
+    animation: star-color 0.5s ease-in-out forwards;
+}
+
+/* define animations */
+@keyframes button-color {
+    from {
+        background-color: #4CAF50;
+    }
+
+    to {
+        background-color: #3e8e41;
+    }
+}
+
+@keyframes star-color {
+    from {
+        color: #e8e5e5;
+    }
+
+    to {
+        color: #FFD700;
+    }
+}
+
+/* animate review table header color change */
+table th:hover {
+    background-color: #3b3b8f;
+    /* animate table header color change */
+    animation: table-header-color 0.5s ease-in-out forwards;
+}
+
+@keyframes table-header-color {
+    from {
+        background-color: #4e4caf;
+    }
+
+    to {
+        background-color: #3b3b8f;
+    }
+}
+
+/* animate artist-container margin change on hover */
+.artist-container:hover {
+    margin: 40px 0;
+}
+
+/* animate artist image box-shadow change on hover */
+.artist-container:hover img {
+    box-shadow: 10px 10px 40px #cfcfcf;
+}
+
+/* animate button background color and width change on hover */
+input[type="button"]:hover {
+    background-color: #3e8e41;
+    width: 200px;
+}
+
+/* animate form input border-color change on focus */
+input[type="text"]:focus,
+textarea:focus {
+    border-color: #4e4caf;
+    /* animate input border-color change */
+    animation: input-border-color 0.5s ease-in-out forwards;
+}
+
+@keyframes input-border-color {
+    from {
+        border-color: #f9f9f9;
+    }
+
+    to {
+        border-color: #4e4caf;
+    }
+}
+.logo2{
+    height: 80px;
+}
+nav {
+  background-color: #b7de05;
+  overflow: hidden;
+  margin-top:-14px;
+  margin-right: 0px;
+  position: fixed;
+  width:99%;
+  
+}
+
+nav a {
+  float: right;
+  color: #140e0e;
+  text-align: center;
+  padding: 18px 20px;
+  font: weight 300px;;
+  font-size: 30px;
+}
+
+.about {
+  background-color: rgb(5, 164, 5);
+  color: #f6f4f4;
+}
+.footer{
+  background-color: #b7de05;
+  color: rgb(9, 9, 9);
+  margin-bottom: -70px;
+}
+.foot{
+font-size: 23px;
+}
+.logos2{
+  padding-top: 10px;
+  height:60px;
+  width: 500px;
+  margin-left:450px;
+  
+}
+.niche{
+  color:rgb(4, 4, 4);
+}
+.niche:hover{
+  color:blue;
+}

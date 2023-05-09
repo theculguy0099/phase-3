@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("about_back.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+.logo2{
+    height: 80px;
+}
+nav {
+    background-color: #b7de05;
+    overflow: hidden;
+    margin-top: -22px;
+    margin-right: 0px;
+    position: fixed;
+    width:99%;
+    
+  }
+  
+  nav a {
+    float: right;
+    color: #140e0e;
+    text-align: center;
+    padding: 18px 20px;
+    font: weight 300px;;
+    font-size: 30px;
+  }
+  
+  .about {
+    background-color: rgb(5, 164, 5);
+    color: #f6f4f4;
+    padding-bottom: 33px;
+  }
+  
+.intro {
+  color: rgb(233, 226, 226);
+  font-size: 21px;
+  font-style: italic;
+  margin-left: 0;
+}
+.creators {
+  color: white;
+  font-size: 40px;
+  margin-left: -650px;
+  font-family: cursive;
+}
+
+.creator-1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  
+}
+
+.kevin {
+  position: absolute;
+  top: 95%;
+  left: 28%;
+  transform: translate(-50%, -50%);
+  max-width: 35%;
+  max-height: 50%;
+  border-radius: 40%;
+  border: solid 10px #f8f2f2;
+}
+.creator-2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.sparsh {
+    position: absolute;
+    top: 95%;
+    left: 73%;
+    transform: translate(-50%, -50%);
+    max-width: 35%;
+    max-height: 50%;
+    border-radius: 40%;
+    border: solid 10px #f8f2f2;
+}
+
+.name1{
+    color:white;
+    font-size: 30px;
+    padding-top:450px;
+    padding-left: 60px;
+}
+.footer{
+    background-color: #b7de05;
+    color: rgb(8, 8, 8);
+    padding: 5px;
+    padding-bottom: 5px;
+  }
+  .foot{
+  font-size: 23px;
+  }
+.logos2{
+    padding-top: 10px;
+    height:80px;
+    width: 500px;
+    margin-left:450px;
+  }
+  .niche{
+    color:rgb(6, 6, 6);
+  }
+  .niche:hover{
+    color:blue;
+  }

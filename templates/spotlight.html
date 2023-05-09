@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>My Favorite Artist</title>
+	<link rel="stylesheet" type="text/css" href="../static/spotlight.css">
+</head>
+
+<body>
+	<header>
+		<nav>
+		  <img src="../static/logo2.jpeg" class="logo2" />
+		  <a href="artists.html">Artists</a>
+		  <a href="about.html">About</a>
+		  <a href="search.html">Search</a>
+		  <a href="spotlight.html" class="artist">Artist Spotlight</a>
+  
+		  <a href="home.html">Home</a>
+		</nav>
+	  </header>
+	  <br/>
+	  <br/>
+	  <br/>
+	  <br/>
+	  <br/>
+
+	<div class="artist-container">
+		<img src="../static/taylorspotlight.jpg" alt="">
+
+		<p align="center" style="color: aliceblue;font-size: 20px;font-family: 'Times New Roman', Times, serif;padding-top: 150px;">
+			<b>Taylor Swift is an American singer-songwriter who burst onto the scene in 2006 with her debut single "Tim
+				McGraw", quickly becoming one of the biggest names in music. She has released nine studio albums to
+				date, with hits like "Love Story", "Shake It Off", and "Blank Space". Taylor has won numerous awards
+				throughout her career, including several Grammys and Billboard Music Awards.</p>
+	</div>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+
+	<h1 align="center" style="color: aliceblue;"><b><i><u>We'd love to know all about your favorite artist and what makes their music truly enchanting to you! Please don't hold back on sharing your passions and insights - We're all ears!</u></i></b></h1>
+	<form style="color: aliceblue;font-size: 20px;">
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name"><br><br>
+
+		<label for="rating">Rating:</label><br>
+		<div class="stars">
+			<input type="radio" id="star1" name="rating" value="1" />
+			<label for="star1">&#9733;</label>
+			<input type="radio" id="star2" name="rating" value="2" />
+			<label for="star2">&#9733;</label>
+			<input type="radio" id="star3" name="rating" value="3" />
+			<label for="star3">&#9733;</label>
+			<input type="radio" id="star4" name="rating" value="4" />
+			<label for="star4">&#9733;</label>
+			<input type="radio" id="star5" name="rating" value="5" />
+			<label for="star5">&#9733;</label>
+		</div>
+		<label for="review">Review:</label><br>
+		<textarea id="review" name="review"></textarea><br><br>
+
+		<input type="button" value="Submit Review" onclick="submitReview()">
+	</form>
+
+	<table style="color: aliceblue;margin-top: 200px;margin-bottom: 200px;" id="rating-table">
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Rating</th>
+				<th>Review</th>
+			</tr>
+		</thead>
+		<tbody align="center"></tbody>
+	</table>
+
+
+	<p align="center" style="color: aliceblue;font-size: 21px;font-style: italic;" id="countdown"></p>
+	<footer class="footer">
+		<img src="../static/logo2.jpeg" class="logos2" />
+		<p align="center" class="foot">Copyright @ 2023 Musicoholic.inc</p>
+		<p align="center" class="foot">
+		  <a href="about.html" class="niche"><u>About us</u></a
+		  >| <u>Privacy</u>|
+		  <u>Security</u>
+		</p>
+	  </footer>
+	  <br/>
+	  <br/>
+	  <br/>
+
+	<script src="../static/script.js"></script>
+</body>
+
+</html>

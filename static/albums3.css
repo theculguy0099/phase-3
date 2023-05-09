@@ -1,0 +1,261 @@
+nav {
+  background-color: #b9df10;
+  overflow: hidden;
+  margin-top: -30px;
+  margin-right: 0px;
+  width:99%;
+  position:fixed;
+}
+
+
+nav a {
+  float: right;
+  color: #010102;
+  text-align: center;
+  padding: 18px 20px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.logo2 {
+  height: 80px;
+}
+
+.back {
+  background-image: url("image.webp");
+  background-repeat: no-repeat;
+  background-size:100%;
+  background-attachment: fixed;
+ 
+
+} 
+
+
+
+
+
+
+
+
+.purpose_image-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.purpose_image {
+  position: absolute;
+  top: 3550px;
+  left: 76%;
+  transform: translate(-50%, -50%);
+  max-width: 40%;
+  max-height: 40%;
+  border-radius: 30%;
+}
+
+.purpose_image:hover {
+  position: absolute;
+  top: 3500px;
+  left: 76%;
+  transform: translate(-50%, -50%);
+  max-width: 45%;
+  max-height: 45%;
+  border-radius: 30%;
+}
+.purpose {
+  position:absolute;
+  top:3730px;
+  left:970px;
+  font-size: 24px;
+  color: white;
+  font-family: cursive;
+}
+
+
+
+
+
+
+
+
+
+.Myworld2_image-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.Myworld2_image {
+  position: absolute;
+  top: -450px;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  max-width:35%;
+  max-height: 35%;
+  border-radius: 30%;
+}
+
+.Myworld2_image:hover {
+  position: absolute;
+  top: -500px;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  max-width:45%;
+  max-height: 45%;
+  border-radius: 30%;
+}
+.Myworld2 {
+  position:absolute;
+  top:540px;
+  left:990px;
+  font-size: 24px;
+  color: white;
+  font-family: cursive;
+}
+
+
+
+
+
+
+
+
+
+
+.justice_image-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.justice_image {
+  position: absolute;
+  top: -1360px;
+  left: 76%;
+  transform: translate(-50%, -50%);
+  max-width: 40%;
+  max-height: 40%;
+  border-radius: 30%;
+}
+
+.justice_image:hover {
+  position: absolute;
+  top: -1400px;
+  left: 76%;
+  transform: translate(-50%, -50%);
+  max-width: 45%;
+  max-height: 45%;
+  border-radius: 30%;
+}
+
+.justice {
+  position:absolute;
+  top:1320px;
+  left:1020px;
+  font-size: 24px;
+  color: white;
+  font-family: cursive;
+}
+
+
+
+
+
+
+
+
+.believe_image-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.believe_image {
+  position: absolute;
+  top: 240px;
+  left: 76%;
+  transform: translate(-50%, -50%);
+  max-width: 40%;
+  max-height: 40%;
+  border-radius: 30%;
+}
+
+.believe_image:hover {
+  position: absolute;
+  top: 200px;
+  left: 76%;
+  transform: translate(-50%, -50%);
+  max-width: 45%;
+  max-height: 45%;
+  border-radius: 30%;
+}
+.believe {
+  position:absolute;
+  top:2090px;
+  left:1020px;
+  font-size: 24px;
+  color: white;
+  font-family: cursive;
+}
+
+
+
+
+
+
+
+
+.under_image-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.under_image {
+  position: absolute;
+  top: -650px;
+  left: 76%;
+  transform: translate(-50%, -50%);
+  max-width: 40%;
+  max-height: 40%;
+  border-radius: 30%;
+}
+
+.under_image:hover {
+  position: absolute;
+  top: -700px;
+  left: 76%;
+  transform: translate(-50%, -50%);
+  max-width: 45%;
+  max-height: 45%;
+  border-radius: 30%;
+}
+.under {
+  position:absolute;
+  top:2860px;
+  left:940px;
+  font-size: 24px;
+  color: white;
+  font-family: cursive;
+}
+.footer{
+  background-color: #b7de05;
+  color: black;
+  padding: 5px;
+  padding-bottom: 5px;
+}
+.foot{
+font-size: 15px;
+}
+.logos2{
+  padding-top: 10px;
+  height:80px;
+  width: 500px;
+  margin-left:450px;
+}
+.niche{
+  color:black;
+}
+.niche:hover{
+  color:blue;
+} 

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Search Page</title>
+    <link rel="stylesheet" href="../static/search.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="../static/logo2.jpeg" class="logo2" />
+        <a href="artists.html">Artists</a>
+        <a href="about.html">About</a>
+        <a href="search.html" class="back">Search</a>
+        <a href="spotlight.html">Artist Spotlight</a>
+
+        <a href="home.html">Home</a>
+      </nav>
+    </header>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <form>
+      <label for="search-bar">Search:</label>
+      <input type="text" id="search-bar" name="search-bar">
+      <button type="button" onclick="search()">Search</button>
+      <button type="button" onclick="clearFilters()">Clear Filters</button>
+    </form>
+
+    <!-- Filter controls -->
+    <div>
+      <label for="duration-filter">Max Duration (minutes):</label>
+      <input type="number" id="duration-filter" name="duration-filter">
+    </div>
+    <div>
+      <label for="explicitness-filter">Explicitness:</label>
+      <select id="explicitness-filter" name="explicitness-filter">
+        <option value="">Any</option>
+        <option value="explicit">Explicit</option>
+        <option value="cleaned">Clean</option>
+        <option value="notExplicit">Not Explicit</option>
+      </select>
+    </div>
+
+    <!-- Container for search results -->
+    <div id="search-results"></div>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <footer class="footer">
+      <img src="../static/logo2.jpeg" class="logos2" />
+      <p align="center" class="foot">Copyright @ 2023 Musicoholic.inc</p>
+      <p align="center" class="foot">
+        <a href="about.html" class="niche"><u>About us</u></a
+        >| <u>Privacy</u>|
+        <u>Security</u>
+      </p>
+    </footer>
+    <script src="../static/search.js"></script>
+  </body>
+</html>
